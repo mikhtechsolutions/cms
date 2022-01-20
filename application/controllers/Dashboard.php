@@ -2,17 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/* * ***************Dashboard.php**********************************
- * @product name    : Global School Management System Pro
- * @type            : Class
- * @class name      : Dashboard
- * @description     : This class used to showing basic statistics of whole application 
- *                    for logged in user.  
- * @author          : Codetroopers Team 	
- * @url             : https://themeforest.net/user/codetroopers    
- * @support         : yousuf361@gmail.com	
- * @copyright       : Codetroopers Team	 	
- * ********************************************************** */
+
 
 class Dashboard extends MY_Controller {
 
