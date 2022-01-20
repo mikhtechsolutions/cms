@@ -14,13 +14,7 @@ class Dashboard extends MY_Controller {
 
     public $data = array();
 
-    /*     * ***************Function index**********************************
-     * @type            : Function
-     * @function name   : index
-     * @description     : Default function, Load logged in user dashboard stattistics  
-     * @param           : null 
-     * @return          : null 
-     * ********************************************************** */
+  
 
     public function index() {
 
