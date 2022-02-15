@@ -1,16 +1,19 @@
 <div class="top_nav">
-    <div class="nav_menu">
+    <div class="nav_menu" style="height:76px;background-color:#035C98;" >
         <nav>
-            <div class="col-md-3">
+            <!-- <div class="col-md-1">
                 <div class="nav toggle">
                     <a id="menu_toggle"><i class="fa fa-bars"></i></a>
                 </div>
-            </div>
+            </div> -->
             <div class="col-md-5 ">
-                <div class="school-name"><?php echo $this->session->userdata('school_name'); ?></div>
+            <img class="logo" src="<?php echo IMG_URL; ?>/spsu-logo1.png" style="width:400px;height:75px;float:left;" >
             </div>
-            <div class="col-md-4">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="col-md-7">
+                <ul class="nav navbar-nav navbar-right" style="margin:10px;">
+                    
+                    <input type="text" class="nav_container_input" />
+                    
                     <li class="">
                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             <?php

@@ -4,7 +4,7 @@
             <a href="<?php echo site_url('dashboard'); ?>" class="site_title_">
                 <!--<i class="fa fa-graduation-cap"></i> -->
                 <span>Global School</span>
-                <img class="logo" src="<?php echo IMG_URL; ?>/sms-logo-50.png">
+                <img class="logo" src="<?php echo IMG_URL; ?>/spsu-logo-50.png">
             </a>
         </div>
         <div class="clearfix"></div>        
